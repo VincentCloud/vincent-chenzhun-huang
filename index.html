@@ -16,8 +16,13 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">                  
+
+
+    <!-- <link rel="stylesheet" href="css/style-boostrap.css"> -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Vincent Huang</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,11 +35,30 @@
     <!-- START HERE -->
     <div class="img-container">
       <!-- <img class="background-img" src="img/background2.jpg" alt=""> -->
-      <div class="landing-text center-text">
+      <div class="landing-text">
         <h1 class="name-drop">Vincent Huang</h1>
         <h1 class="name-drop">黄陈谆</h1>
         <p class="who-am-i">Developer, Student, Musician</p>
+        <div class="row text-center">
+          <div class="col-lg-4 col-sm-4 col-4"></div>
+          <div class="col-lg-1 col-sm-1 col-1">
+            <a href="https://www.linkedin.com/in/vincent-huang-6b6405149/"><i data-feather="linkedin"></i></a>
+          </div>
+          <div class="col-lg-1 col-sm-1 col-1">
+            <a href="https://github.com/VincentCloud"><i data-feather="github"></i></a>
+          </div>
+          <div class="col-lg-1 col-sm-1 col-1">
+            <a href="https://www.linkedin.com/in/vincent-huang-6b6405149/"><i data-feather="linkedin"></i></a>
+          </div>
+          <div class="col-lg-1 col-sm-1 col-1">
+            <a href="mailto:chenzhun.huang@gmail.com"><i data-feather="mail"></i></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-4"></div>
+        </div>
+
+        <!-- <i data-feather="linkedin"></i> -->
       </div>
+
     </div>
 
     <div class="container about-me">
@@ -45,9 +69,12 @@
         <div class="col-md-7 gradient-border"> 
           <div class="align-middle">
             <h2>About Me</h2>     
-            <p class="text-justify about-me-text "> Hi, welcome to my page! I am currently a Master's student in Intelligent Information System (MIIS) program at Carnegie Mellon University. My technical background lies </p>
-          </div>
+            <p class="text-justify about-me-text "> I am a 2022 graduate from McGill University with a Bachelor's degree in Honours Computer Science and a minor in Musical Science & Technology and I am currently pursuing a master's degree at Carnegie Mellon University in the MIIS (Master of Science in Intelligent Information Systems) program. 
 
+            <p class="text-justify about-me-text ">My technical background contains a combination of research and development. During my past internships, I have built internal tools that significantly accelerate the team's workflow. I also developed tools that helped automate repetitive work in a fashion studio. My research experience covers text summarization and knowledge distillation in pose authoring networks.</p>
+              
+            <p class="text-justify about-me-text ">When I am not coding, I am a guitarist, singer, bass, piano and harmonica enthusiast. I am also an intermediate badminton player. </p>
+          </div>
         </div>
       </div>
     </div>
@@ -71,6 +98,10 @@
     <script>
       // Get the current year for the copyright
       $("#year").text(new Date().getFullYear());
+    </script>
+
+    <script>
+      feather.replace()
     </script>
   </body>
 </html>
